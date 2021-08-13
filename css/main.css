@@ -1,7 +1,7 @@
 /* start var */
 .active {
   color: var(--main-color);
-  background: lime;
+  background: #2a2a2a;
   border-bottom: 1px solid var(--main-color) !important;
 }
 
@@ -127,7 +127,9 @@ header nav ul li a .active,
 header nav ul li:hover {
   color: var(--main-color);
   border-bottom: 10px solid var(--main-color);
+  margin-bottom: -10px;
 }
+
 header nav .form {
   height: 30px;
   width: 40px;
